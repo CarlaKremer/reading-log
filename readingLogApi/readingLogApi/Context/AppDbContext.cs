@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PinAuthApi.Models;
 
 namespace APICatalogo.Context
 {
@@ -8,6 +9,7 @@ namespace APICatalogo.Context
         {
 
         }
-        
+
+        public DbSet<Auth> Auths { get; set; }
     }
 }

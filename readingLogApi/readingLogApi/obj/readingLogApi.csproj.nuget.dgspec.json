@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carla\\dev\\reading-log\\readingLogApi\\readingLogApi\\readingLogApi.csproj": {}
+    "C:\\Users\\natan\\dev\\dotnet\\reading-log\\readingLogApi\\readingLogApi\\readingLogApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carla\\dev\\reading-log\\readingLogApi\\readingLogApi\\readingLogApi.csproj": {
+    "C:\\Users\\natan\\dev\\dotnet\\reading-log\\readingLogApi\\readingLogApi\\readingLogApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carla\\dev\\reading-log\\readingLogApi\\readingLogApi\\readingLogApi.csproj",
+        "projectUniqueName": "C:\\Users\\natan\\dev\\dotnet\\reading-log\\readingLogApi\\readingLogApi\\readingLogApi.csproj",
         "projectName": "readingLogApi",
-        "projectPath": "C:\\Users\\carla\\dev\\reading-log\\readingLogApi\\readingLogApi\\readingLogApi.csproj",
-        "packagesPath": "C:\\Users\\carla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carla\\dev\\reading-log\\readingLogApi\\readingLogApi\\obj\\",
+        "projectPath": "C:\\Users\\natan\\dev\\dotnet\\reading-log\\readingLogApi\\readingLogApi\\readingLogApi.csproj",
+        "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natan\\dev\\dotnet\\reading-log\\readingLogApi\\readingLogApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\carla\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +38,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.5, )"
